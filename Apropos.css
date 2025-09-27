@@ -1,0 +1,67 @@
+
+/*-----------------------------------*\
+  #ABOUT
+\*-----------------------------------*/
+
+.about .section-text {
+   margin-block: 15px 30px;
+   }
+  .container
+{
+  color: #504949;
+  
+}
+
+.container .h1{
+  text-align: center;
+}
+
+.about .container {
+  display: grid;
+  gap: 120px;
+}
+
+.about-banner {
+  position: relative;
+  margin-block-end: 120px;
+  margin-top: 30px;
+}
+
+.about-banner > .w-100 { padding-inline-start: 50px; }
+
+.about .abs-img::before { z-index: -1; }
+
+
+.background
+{ 
+  background-image: url(s._drey/banner.jpeg);
+background-size: cover;
+height: 15cm;
+max-width: 200;
+margin-right: 100;
+background-repeat: no-repeat;
+overflow: hidden;
+filter: blur();
+}
+
+.background > section{
+  filter: blur();
+}
+
+
+.number
+{
+left: 50px;
+padding: 20px;
+width: 500px;
+height: 50px;
+background-color: rgb(214, 214, 245);
+border: solid 2px;
+text-align: center;
+border-radius: 20px;
+}
+.footer{
+    background-color: rgb(214, 214, 245);
+    height: fit-content;
+}
+

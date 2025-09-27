@@ -1,0 +1,83 @@
+ /* ---- Style global ---- */
+ body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     background-color: #bdbaba;
+ }
+
+ header {
+     background-color: #fcbb90;
+     color: rgb(155, 139, 139);
+     padding: 15px;
+     text-align: center;
+     font-size: 22px;
+     position: sticky;
+     top: 0;
+ }
+
+ /* ---- Panier ---- */
+ .cart {
+     position: absolute;
+     right: 20px;
+     top: 15px;
+     background: #687b7c;
+     color: #333;
+     padding: 8px 12px;
+     border-radius: 8px;
+     font-weight: bold;
+ }
+
+ /* ---- Grille du catalogue ---- */
+ .catalogue {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+     gap: 20px;
+     padding: 20px;
+     max-width: 1200px;
+     margin: auto;
+ }
+
+ /* ---- Carte produit ---- */
+ .product-card {
+     background: linear-gradient(65deg, #fce9da 0%, #a5a4a3 35%, #d2d9da 35%);
+     padding: 15px;
+     border-radius: 12px;
+     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+     text-align: center;
+     transition: transform 0.2s;
+ }
+
+ .product-card:hover {
+     transform: scale(1.05);
+ }
+
+
+
+ .product-card h3 {
+     margin: 10px 0;
+     font-size: 18px;
+ }
+
+ .price {
+     color: #ffc095;
+     font-weight: bold;
+     margin-bottom: 10px;
+     display: block;
+ }
+
+ /* ---- Bouton ---- */
+ .add-to-cart {
+     background-color: #fcbb90;
+     color: rgb(14, 12, 12);
+     padding: 10px 20px;
+     border: none;
+     border-radius: 8px;
+     cursor: pointer;
+     font-size: 14px;
+     transition: background-color 0.3s ease;
+ }
+
+ .add-to-cart:hover {
+     background-color: #e65c00;
+ }
